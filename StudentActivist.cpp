@@ -1,10 +1,10 @@
 #include "studentActivist.h"
 
-StudentActivist::StudentActivist(std::string t_firstName,  std::string t_secondName, std::string t_parentName, unsigned  t_age)
+StudentActivist::StudentActivist(std::string firstName,  std::string secondName, std::string parentName, unsigned  age)
 {
-	firstName_ = t_firstName;
-	secondName_ = t_secondName;
-	studentAge_ = t_age;
+	firstName_ = firstName;
+	secondName_ = secondName;
+	studentAge_ = age;
 }
 
 int StudentActivist::getGrade()

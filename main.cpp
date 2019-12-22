@@ -3,7 +3,7 @@
 
 int main()
 {
-	srand(time(0));
+	srand(static_cast<unsigned int>(time(nullptr)));
 
 	StudentGroup groupA = { "Network", 1 };
 

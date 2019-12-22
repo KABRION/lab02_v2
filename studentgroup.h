@@ -48,7 +48,7 @@ private:
 	unsigned int groupID_;
 	unsigned int minAge_ = 0;
 	double minRating_ = 0.0;
-	int studentsMax_ = 20;
+	size_t studentsMax_ = 20;
 
 	std::vector<Student*> students;
 	std::vector<Student*> FinalExamList;

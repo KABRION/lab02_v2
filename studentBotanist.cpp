@@ -1,10 +1,10 @@
 #include "studentBotanist.h"
 
-StudentBotanist::StudentBotanist(const std::string& t_firstName, const std::string& t_secondName, std::string t_parentName, unsigned const t_age)
+StudentBotanist::StudentBotanist(const std::string& firstName, const std::string& secondName, std::string parentName, unsigned const age)
 {
-	firstName_ = t_firstName;
-	secondName_ = t_secondName;
-	studentAge_ = t_age;
+	firstName_ = firstName;
+	secondName_ = secondName;
+	studentAge_ = age;
 }
 
 int StudentBotanist::getGrade()

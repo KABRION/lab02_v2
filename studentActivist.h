@@ -10,7 +10,7 @@ public:
 	
 	StudentActivist() = delete;
 
-	StudentActivist( std::string t_firstName,  std::string t_secondName,  std::string t_parentName, unsigned  t_age);
+	StudentActivist( std::string firstName,  std::string secondName,  std::string parentName, unsigned  age);
 
 	int getGrade() override;
 	int getFinalGrade() override;
